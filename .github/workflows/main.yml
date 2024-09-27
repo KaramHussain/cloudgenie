@@ -1,0 +1,40 @@
+
+name: Deploy to S3
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build and Push to S3
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18' # Specify the version of Node.js you want to use
+        
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.ACCESSID }}
+        aws-secret-access-key: ${{ secrets.SECRETKEY }}
+        aws-region: us-east-1
+
+    
+    - name: Install dependencies and build
+      run: |
+        npm install 
+        npm run build
+    - name: Upload dist to S3
+      run: |
+        aws s3 sync dist s3://cloudgenie
+        
+    # - name: Trigger CloudFront cache invalidation
+    #   run: |
+    #     aws cloudfront create-invalidation --distribution-id EMF8FWUY8FKSU --paths "/*"  
