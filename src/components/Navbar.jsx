@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-1 justify-between items-center navbar -mt-10 '> {/* Adjusted padding */}
-      <img src={logo} alt='hoobank' className='w-[250px] h-[220px] object-contain' /> {/* Adjusted size and added object-contain */}
+      <img src={logo} alt='hoobank' className='w-[250px] h-[200px] object-contain' /> {/* Adjusted size and added object-contain */}
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, i) => (
           <li 

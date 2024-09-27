@@ -20,7 +20,8 @@ const Hero = () => {
             <span className='text-white'>1 Month</span> Account
           </p> */}
         </div>
-        <div className='flex flex-row justify-between items-center w-full -mt-40'>
+        {/* <div className='flex flex-row justify-between items-center w-full -mt-40'> */}
+        <div className='flex flex-row justify-between items-center w-full -mt-36 sm:-mt-36 lg:-mt-96'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
             The Next <br className='sm:block hidden'/> {" "}
             <span className='text-gradient'>Generation</span> {" "}
