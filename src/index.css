@@ -113,8 +113,10 @@
 }
 
 .feature-card {
-  background: var(--custom-gradient);
-  box-shadow: var(--card-shadow);
+  /* background: var(--custom-gradient);
+  box-shadow: var(--card-shadow); */
+  background: #161515; /* Light background for feedback cards */
+
 }
 
 .feedback-container .feedback-card:last-child {
