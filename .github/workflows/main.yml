@@ -35,6 +35,6 @@ jobs:
       run: |
         aws s3 sync dist s3://cloudgenie
         
-    # - name: Trigger CloudFront cache invalidation
-    #   run: |
-    #     aws cloudfront create-invalidation --distribution-id EMF8FWUY8FKSU --paths "/*"  
+    - name: Trigger CloudFront cache invalidation
+      run: |
+        aws cloudfront create-invalidation --distribution-id E2Q8XDMTTLH1EZ --paths "/*"  
