@@ -27,12 +27,14 @@ const Business = () => {
   return (
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/>we'll handle the money.</h2>
+        <h4 className={styles.heading2}>You do the business, <br className='sm:block hidden'/>We'll Manage Your Cloud.</h4>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, 
-          you can improve your financial life by building credit,
-          earning rewards and saving money.
-          But with hundreds of credit cards on the market.
+        Let us handle your cloud deployment, automation, and management, 
+        so you can focus on what matters most—growing your business. 
+        Our team of experts ensures seamless integration and ongoing 
+        support across AWS and on-premises environments. 
+        Whether it's optimizing your cloud infrastructure or 
+        managing project workflows, we've got you covered.
         </p>
         <Button styles='mt-10'/>
       </div>

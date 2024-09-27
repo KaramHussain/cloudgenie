@@ -22,11 +22,11 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Motive",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Tools",
   },
   {
     id: "clients",
@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Cloud Solutions",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "We offer tailored cloud solutions to fit your business needs, including deployment, scaling, and maintenance to ensure optimal performance.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Proactive Security",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Our team implements industry best practices to secure your cloud infrastructure and protect sensitive data with advanced security measures.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Seamless Integration",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We ensure seamless integration and migration of your on-premises or cloud environments, minimizing downtime and disruption to your operations.",
   },
 ];
 
@@ -62,44 +62,44 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Partnering with them transformed how we manage our infrastructure. Now, we can scale effortlessly and focus on delivering value to our customers.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    title: "Founder & Leader of safetechnologygroup",
+    img: people03,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Their proactive approach to cloud management saved us from numerous potential outages. Truly a game-changer for our business.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Founder & Leader of CareBids",
     img: people02,
   },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+  // {
+  //   id: "feedback-3",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   name: "Kenn Gallagher",
+  //   title: "Founder & Leader",
+  //   img: people03,
+  // },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Application Deployed",
+    value: "300+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "4",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Consultancy Provided",
+    value: "400+",
   },
 ];
 
@@ -188,7 +188,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/cloudgenie-tech",
   },
 ];
 

@@ -7,12 +7,12 @@ const CardDeal = () => {
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
+        <h2 className={styles.heading2}>Efficiently Manage  <br className='sm:block hidden'/>Your Cloud Infrastructure.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç 
-          Aliquet ultrices ac, ametau.
+        Whether it's AWS, Azure, on-premises Kubernetes clusters, 
+        or GCP, we streamline cloud management, enhance monitoring, 
+        and optimize costs to ensure smooth and efficient operations 
+        across all your services..
         </p>
         <Button styles='mt-10'/>
       </div>
