@@ -15,8 +15,10 @@ const Hero = () => {
       in Cloud Deployment.
     </h1>
     <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
-      We examine annual percentage rates, annual fees.
+    Our team of cloud experts specializes in deploying, automating, 
+    and managing robust cloud solutions tailored to your business needs. 
+    We ensure your infrastructure is scalable, secure, and optimized for 
+    performance, enabling you to focus on growth and innovation..
     </p>
   </div>
   return (
