@@ -108,14 +108,15 @@
 }
 
 .feature-card:hover {
-  background: var(--custom-gradient);
-  box-shadow: var(--card-shadow);
+  /* background: var(--custom-gradient);
+  box-shadow: var(--card-shadow); */
+  background: #161515;
 }
 
 .feature-card {
-  /* background: var(--custom-gradient);
-  box-shadow: var(--card-shadow); */
-  background: #161515; /* Light background for feedback cards */
+  background: var(--custom-gradient);
+  box-shadow: var(--card-shadow);
+  /* background: #161515; Light background for feedback cards */
 
 }
 
@@ -124,11 +125,14 @@
 }
 
 .feedback-card {
-  background: #161515; /* Light background for feedback cards */
+  background: var(--custom-gradient);
+
 }
 
 .feedback-card:hover {
-  background: var(--custom-gradient);
+  
+  /* background: var(--custom-gradient);*/
+  background: #161515; /* Light background for feedback cards */
 }
 
 .blue__gradient {
