@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section 
       id='home' 
-      className={`flex md:flex-row flex-col ${styles.paddingY} -mt-40`} // Added negative margin-top
+      className={`flex md:flex-row flex-col ${styles.paddingY} -mt-26`} // Added negative margin-top
     >
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className='mt-10 mb-2'>
@@ -20,7 +20,7 @@ const Hero = () => {
             <span className='text-white'>1 Month</span> Account
           </p> */}
         </div>
-        <div className='flex flex-row justify-between items-center w-full'>
+        <div className='flex flex-row justify-between items-center w-full -mt-40'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
             The Next <br className='sm:block hidden'/> {" "}
             <span className='text-gradient'>Generation</span> {" "}
