@@ -29,7 +29,7 @@ const Footer = () => {
                     key={item.name} 
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-black hover:text-logocolor cursor-pointer ${index !== link.links.length - 1 ? 'mb-4' : 'mb-0'}`}
                   >
-                    {item.name}
+                    <a href={item.link}>{item.name}</a>
                   </li>
                 ))}
               </ul>
