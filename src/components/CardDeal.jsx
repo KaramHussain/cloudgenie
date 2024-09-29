@@ -14,7 +14,6 @@ const CardDeal = () => {
         and optimize costs to ensure smooth and efficient operations 
         across all your services..
         </p>
-        <Button styles='mt-10'/>
       </div>
       <div className={layout.sectionImg}>
         <img
